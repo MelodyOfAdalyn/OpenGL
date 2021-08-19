@@ -1,34 +1,13 @@
 # OpenGL
 
-#How do I approach designing software?
+#Portfolio Submission
 
+Software design requires the coder to understand the purpose of the software. Along with how it will be interacting with different devices, programs, etc. In this project I chose to visualize what I wanted first before developing the objects. Each object was then broken down into seperate headers so that they could be interacted with seperately. In terms of design skills, this project has allowed me to understand how to orient objects within coordinates along with how to apply textures to 3D objects. Understanding how to move the objects around in the enviroment allowed me to understand how to create a scene that was cohesive. 
 
-#What new design skills has your work on the project helped you to craft?
+In terms of design process, I originally took a picture of the objects I wanted in my scene. They started as a pencil case, mouse, teapot, nintendo switch and a speaker. The pencil case was taken out because it clustered up the scene. From here, I had created the main plane (table). All additional objects would be resting on this object in the future. This object would be placed in a seperate header from the main source to avoid clustering the code in one location. I continued to design the nintendo switch and speaker within the 3d enviroment. The console controllers can be treated as seperate objects in the scene based on the code itself. Unfortunately, I was unable to create the teapot and the mouse. I was going to take the approach of fanning 3d triangles to create the foundation of the teapot, but I couldnt get the objects to appear. In the future, I would like to incorporate headers like I did in this project. It allowed me to focus on objects one at a time and it really helped. I also would like be able to add more complex textures to complex objects in the future. 
 
+When developing programs, I typically sort out the requirements before coding. I work with automation for machinery so it is important to understand limitations of machine, servers, and the program itself. Then I would write down a rough idea of what it does and if the program would be beneficial and efficient for the task it is being built for. Some programs do not work or there are alternative designs that could be more efficient then the original idea. While working on my 3D scene I used a variety of different developing strategies. Such as headers which helped turn off and on objects. This allowed me to focus and move objects across the plane more smoothly. I could also analyze the objects and make sure all the faces were there. I also put the camera and lighting controls into seperate headers. So style of coding was beneficial because I also caught functionality errors quicker. If I had not done this I would have had to scroll through various lines of code to debug the error. Interation was mainly shown from the way I implemented code into the application. Breaking the code down allowed me to fully understand how the objects were interacting with the enviroment. Without it I believe there wouldve been a variety of errors or objects without faces(or plainly incomplete). 
 
-#What design process did you follow for your project work?
+Over the milestones, I approached the code by viewing and analyzing the requirements. If requirement was taken one step at a time to ensure that it functioned properly. I believe the main factor that changed across all the milestones was how I managed the code for the objects, camera, and lights. I also learned more about what the libraries did the extra methods they provided to interact with the 3D scene. Overall, each milestone taught me a different skill that I could utilize in the next and improve upon what I had learned. Computer Science is really a continuous learning experience, something that I am always looking to do. I also like to know how specific programs interact with each other and how the computer interprets specific information. It is important to my goals that I understand how things learn and interact with each other. This course in particular ties together creative aspects with the technological which was very eye opening. 
 
-
-#How could tactics from your design approach be applied in future work?
-
-
-#How do I approach developing programs?
-
-
-#What new development strategies did you use while working on your 3D scene?
-
-
-#How did iteration factor into your development?
-
-
-#How has your approach to developing code evolved throughout the milestones, which led you to the project’s completion?
-
-
-#How can computer science help me in reaching my goals?
-
-
-#How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future educational pathway?
-
-
-
-#How do computational graphics and visualizations give you new knowledge and skills that can be applied in your future professional pathway?
+Computational graphics and visualizations allow me to visualize how the computer is interpreting the logic that the user inputs. This can be implemented in the future towards applications such as blender or even app development seeing as they use 2D scenes/enviroments. I do not know if I will be utilizing OpenGL specifically, although I can use the lessons I learned here for coding purposes. I also understand more of how the GPU interprets input from the user and how the system displays it. From a professional pathway, I believe I will be utlizing this type of knowledge and skills more. Being able to analyze and visualize how the computer will interpret information helps the coder understand how the output and decreasing the amount of troubleshooting. Although it also allows the coder to see the amount of creative avenues there are and the various amount of possibilities there are due to libraries and external sources. 
